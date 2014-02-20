@@ -23,5 +23,9 @@ class ProductsController < ApplicationController
     end
   end
 
+  def new
+    @product = Product.new
+  end
+
 
 end
